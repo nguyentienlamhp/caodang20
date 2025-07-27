@@ -365,7 +365,7 @@ input[type="checkbox"]:checked::before {
 }
 
 
-.cls-logo{
+.cls-logo {
     max-width: 100%;
     height: auto;
 }
@@ -373,9 +373,10 @@ input[type="checkbox"]:checked::before {
 
 
 @media (max-width: 767px) {
-    .cls-logo{
+    .cls-logo {
         height: 150px !important;
     }
+
     .sign-content h3 {
         font-size: 40px;
     }
@@ -395,5 +396,13 @@ input[type="checkbox"]:checked::before {
 
     .signup-logo-header .header-flex {
         display: block;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* CSS cho điện thoại */
+    .cls-logo {
+        height: 120px !important;
     }
 }
