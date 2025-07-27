@@ -403,6 +403,6 @@ input[type="checkbox"]:checked::before {
 
     /* CSS cho điện thoại */
     .cls-logo {
-        height: 120px !important;
+        height: 100px !important;
     }
 }
